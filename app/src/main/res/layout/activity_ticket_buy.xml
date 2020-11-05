@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TicketBuy"
+    android:gravity="center"
+    android:background="#DA0B1412"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/OnlineTicketBuyTxtview"
+            android:layout_width="173dp"
+            android:layout_height="51dp"
+            android:background="#93CA4E"
+            android:gravity="center"
+            android:text="@string/e_sheba" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buyTicketSMSid"
+            android:layout_width="173dp"
+            android:layout_height="51dp"
+            android:background="#93CA4E"
+            android:text="Buy Ticket Through SMS"
+            android:textAllCaps="false">
+
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textviewId"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

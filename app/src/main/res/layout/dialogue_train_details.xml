@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:background="#DA0B1412"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/train_img_ID"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/trainicon">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/train_name_tv_ID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="train name:"
+                android:textColor="#ffff"
+                android:textSize="22sp"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:id="@+id/train_no_tv_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="train no: "
+                android:textColor="#D7F3FF"
+                android:textStyle="bold"></TextView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/train_departureStation_tv_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Departure Station "
+                android:textColor="#D7F3FF"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/train_departureTime_tv_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Departure time : "
+                android:textColor="#D7F3FF"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+
+
+            >
+
+            <TextView
+                android:id="@+id/train_ArrivalStation_tv_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arrival Station "
+                android:textColor="#D7F3FF"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/train_ArrivalTime_tv_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arrival time : "
+                android:textColor="#D7F3FF"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/train_offday_tv_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="information : "
+                android:textColor="#D7F3FF"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/information_tv_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Train_alert_information"
+                android:textColor="#F8C7C7"
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/sendMessage_btn_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_track"
+                android:onClick="track"
+                android:padding="5dp"
+                android:text="Track"
+                android:textAllCaps="false"
+                android:textColor="#130F0F"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

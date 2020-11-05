@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DA0B1412"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/train"
+        >
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="5dp"
+        android:layout_weight="1">
+
+        <Button
+
+            android:id="@+id/buyTicketBtnID"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:drawableTop="@drawable/ticketprice"
+            android:text="@string/BuyTicketBtn"
+            android:textAllCaps="false"
+            android:textColor="#F8F2F2" />
+
+        <Button
+            android:id="@+id/ScheduleBtnID"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:drawableTop="@drawable/schedule"
+            android:text="@string/ScheduleBtn"
+            android:textAllCaps="false"
+            android:textColor="#FEFFFF"
+            android:textIsSelectable="true" />
+
+        <Button
+            android:id="@+id/stationMapBtnID"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:drawableTop="@drawable/stationmap"
+            android:shadowRadius="10"
+            android:text="@string/StationMapBtn"
+            android:textAllCaps="false"
+            android:textColor="#E9F0EF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="05dp"
+        android:layout_weight="1"
+        >
+
+
+        <Button
+            android:id="@+id/NoticeBoardBtnID"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:drawableTop="@drawable/notice"
+            android:text="@string/NoticeBoardBtn"
+            android:textAllCaps="false"
+
+            android:textColor="#FAFCFB" />
+
+        <Button
+            android:id="@+id/LiveTrackingBtnID"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:drawableTop="@drawable/traintracking"
+            android:text="@string/LiveTrackingBtn"
+            android:textAllCaps="false"
+
+            android:textColor="#F9FAFA" />
+
+        <Button
+            android:id="@+id/ContactBtnID"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:drawableTop="@drawable/importantcontact"
+            android:text="@string/ImportantContactBtn"
+            android:textAllCaps="false"
+
+            android:textColor="#FBFCFB" />
+    </LinearLayout>
+
+
+</LinearLayout>

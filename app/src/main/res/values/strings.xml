@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Train Tracker</string>
+    <string name="ScheduleBtn">Schedule</string>
+    <string name="TrainTrackingBtn">Train Tracking</string>
+    <string name="LiveTrackingBtn">Live Tracking</string>
+    <string name="ImportantContactBtn">Important Contact</string>
+    <string name="StationMapBtn">Station Map</string>
+    <string name="NoticeBoardBtn">Notice Board</string>
+    <string name="BuyTicketBtn">Buy Ticket</string>
+    <string name="Train_alert_information">You will be charged 4.84 taka (including vat) to track the current location of the train.This money will be charged by sim operator.</string>
+    <string name="e_sheba"><a href="https://www.esheba.cnsbd.com/">Online ticket buy</a></string>
+
+    <string-array name="TrainName">
+
+        <item> subarna Express (Chittagong to Dhaka)</item>
+        <item> subarna Express (Dhaka to Chittagong) </item>
+        <item> Mohanagar Godhuli (Chittagong to Dhaka)</item>
+        <item> Mohanagar Provati (Dhaka to Chittagong)</item>
+        <item> Ekota Express (Dhaka to Dinajpur)</item>
+        <item> Ekota Express (Dinajpur to Dhaka)</item>
+        <item> Tista Express (Dhaka to Dewangong)</item>
+        <item> Tista Express (Dewangong to Dhaka)</item>
+        <item> Parabat  Express (Dhaka to Sylhet)</item>
+        <item> Parabat  Express (Sylhet to Dhaka)</item>
+        <item> Upukol Express (Noakhali to Dhaka)</item>
+        <item> Upukol Express (Dhaka to Noakhali)</item>
+        <item> Joyantika Express (Dhaka to Sylhet)</item>
+        <item> Joyantika Express (Sylhet to Dhaka)</item>
+        <item> Paharia Express (Chittagong to Sylhet)</item>
+        <item> Paharia Express (Sylhet to Chittagong)</item>
+        <item> Mohanagar Provati (Chittagong to Dhaka)</item>
+        <item> Mohanagar Goduli (Dhaka to Chittagong)</item>
+        <item> Uddayan Express (Chittagong to Sylhet)</item>
+        <item> Uddayan Express (Sylhet to Chittagong)</item>
+        <item> Megna Express (Chittagong to Chandpur)</item>
+        <item> Megna Express (Chandpur to Chittagong)</item>
+        <item> Agnibina Express (Dhaka to Tarakandi)</item>
+        <item> Agnibina Express (Tarakandi to Dhaka )</item>
+        <item> Egarosindhur Provati (Dhaka to Kisoregonj )</item>
+        <item> Egarosindhur Provati (Kisoregonj to Dhaka )</item>
+        <item> Upaban Express (Dhaka to Sylhet )</item>
+        <item> Upaban Express (Sylhet to Dhaka )</item>
+        <item> Turna  Express (Chittagong to Dhaka )</item>
+        <item> Turna  Express (Dhaka to Chittagong )</item>
+        <item> Bharamaputra (Dhaka to Dewangong )</item>
+        <item> Bharamaputra (Dewangong to Dhaka )</item>
+        <item> Jamuna Express (Dhaka to BB_East )</item>
+        <item> Jamuna Express (BB_East to Dhaka )</item>
+        <item> Egarosindhur Goduli(Dhaka to Kisoregonj )</item>
+        <item> Egarosindhur Goduli(Kisoregonj to Dhaka )</item>
+        <item> Lalmoni Express(Dhaka to Lalmonirhat )</item>
+        <item> Lalmoni Express(Lalmonirhat to Dhaka )</item>
+        <item> Drutojan Express(Dhaka to Dinajpur )</item>
+        <item> Drutojan Express(Dinajpur to Dhaka )</item>
+        <item> Dolonchapa Express(Santahar to Dinajpur )</item>
+        <item> Dolonchapa Express(Dinajpur to Santahar )</item>
+        <item> Rangpur Express(Dhaka to Rangpur )</item>
+        <item> Rangpur Express(Dhaka to Sylhet )</item>
+        <item> Kalani Express (Sylhet to Dhaka )</item>
+        <item> Kalani Express (Sylhet to Dhaka )</item>
+        <item> Sirajgong Express (Ishurdi to Dhaka )</item>
+        <item> Sirajgong Express (Dhaka to Ishurdi )</item>
+        <item> Sirajgong Express (Dhaka to Mohangonj )</item>
+        <item> Sirajgong Express (Mohangonj to Dhaka )</item>
+        <item> Kapotaskh express (Khulna to Rajshahi )</item>
+        <item> Kapotaskh express (Rajshahi to Khulna )</item>
+        <item> Sundarban express (Khulna to Dhaka )</item>
+        <item> Sundarban express (Dhaka to Khulna )</item>
+        <item> 	Rupsha express (Khulna to Saidpur )</item>
+        <item> 	Rupsha express (Saidpur to Khulna )</item>
+        <item> 	Barendra express (Rajshahi to Chilahati )</item>
+        <item> 	Barendra express (Chilahati to Rajshahi )</item>
+        <item>	Titumir express (Rajshahi to Chilahati )</item>
+        <item>	Titumir express (Chilahati to Rajshahi )</item>
+        <item>	Simanta express (Khulna to Saidpur )</item>
+        <item>	Simanta express (Saidpur to Khulna )</item>
+        <item>	Silk city express (Dhaka to Rajshahi )</item>
+        <item>	Silk city express (Rajshahi to Dhaka )</item>
+        <item>	Madhumati express (Goalonda hat to Rajshahi )</item>
+        <item>	Madhumati express (Rajshahi to Goalonda hat )</item>
+        <item>	Padma express (Dhaka to Rajshahi )</item>
+        <item>	Padma express (Rajshahi to Dhaka )</item>
+        <item>	Sagardari express (Khulna to Rajshahi )</item>
+        <item>	Sagardari express (Rajshahi to Khulna )</item>
+        <item>	Chittra express (Khulna to Dhaka )</item>
+        <item>	Chittra express (Dhaka to Khulna )</item>
+        <item>	Nilsagar (Dhaka Cantt to Chilahati )</item>
+        <item>	Nilsagar (Chilahati to Dhaka Cantt )</item>
+        <item>	Dhumketue express (Dhaka to Rajshahi )</item>
+        <item>	Dhumketue express (Rajshahi to Dhaka)</item>
+        <item>	Moitree Express (Dhaka Cantt to Kolkata)</item>
+        <item>	Moitree Express (Kolkata to Dhaka Cantt)</item>
+
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

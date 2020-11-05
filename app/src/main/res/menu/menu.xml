@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+
+        android:title="setting"
+        android:id="@+id/settingId"
+        app:showAsAction="never"
+
+        />
+
+    <item
+
+        android:title="Share"
+        android:id="@+id/ShareId"
+        app:showAsAction="never"
+
+        />
+
+    <item
+
+        android:title="About us"
+        android:id="@+id/aboutUsId"
+        app:showAsAction="never"
+
+        />
+
+    <item
+
+        android:title="feedback"
+        android:id="@+id/feedbackId"
+        app:showAsAction="never"
+
+        />
+
+</menu>
